@@ -3,7 +3,8 @@ services:
     build:
       context: ..
       dockerfile: .devcontainer/jupyter/Dockerfile
-    container_name: mi25a003_pytorch_jupyter
+    # コンテナネーム変更してください
+    container_name: mi00a000_pytorch_jupyter
     working_dir:  /home/jovyan/work
     volumes:
       # ホストのルートをコンテナの /workspace にマウントする設定例
