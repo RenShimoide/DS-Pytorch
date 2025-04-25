@@ -2,5 +2,7 @@ jupyterlab
 pandas
 numpy
 matplotlib
+japanize-matplotlib
 scikit-learn
 pycuda
+umap-learn
