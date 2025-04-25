@@ -1,5 +1,5 @@
 使い方
-任意のドライブに展開し、VSCODEのremote containerで新しいコンテナを開くで環境を作成できる。
+任意のドライブに展開し、VSCODEのremote containerでDS-Pytorch-mainフォルダを開き、新しいコンテナを開くで環境を作成できる。
 
 注意事項
 大学内で利用するときは追加でプロキシを通す
@@ -10,7 +10,7 @@ compose.yml内でコンテナネーム変更、GPUのメモリ割り当て変更
 rootで入っているので適宜変更もしたほうが良いかも
 
 配置図
-my-python-project/
+DS-Pytorch-main/
 ├── .devcontainer/
 │   ├── jupyter
 │   │   ├── Dockerfile
